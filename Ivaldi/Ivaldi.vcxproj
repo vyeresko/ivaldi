@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Platform\OpenGL\GLVertexArray.h" />
+    <ClInclude Include="Source\GPUClient\ShaderInputLayout.h" />
+    <ClInclude Include="Source\Scene\Camera\OrthogonalProjector.h" />
+    <ClInclude Include="Source\Scene\Camera\PerspectiveProjector.h" />
+    <ClInclude Include="Source\Scene\Camera\ICameraProjector.h" />
+    <ClInclude Include="Source\Scene\Camera\Camera.h" />
+    <ClInclude Include="Source\Platform\OpenGL\GLProgram.h" />
+    <ClInclude Include="Source\Platform\OpenGL\GLClient.h" />
+    <ClInclude Include="Source\Platform\OpenGL\GLIndexBuffer.h" />
+    <ClInclude Include="Source\Platform\OpenGL\GLVertexBuffer.h" />
+    <ClInclude Include="Source\Platform\OpenGL\GLTexture.h" />
+    <ClInclude Include="Source\Scene\SimpleSceneParser.h" />
+    <ClInclude Include="Source\Scene\SimpleScene.h" />
+    <ClInclude Include="Source\Platform\OpenGL\GLMaterialSystem.h" />
+    <ClInclude Include="Source\MaterialSystem\MaterialSystem.h" />
+    <ClInclude Include="Source\Resource\ShaderResource.h" />
+    <ClInclude Include="Source\Platform\OpenGL\GLShader.h" />
+    <ClInclude Include="Source\Platform\Assimp\AssimpResourceIterator.h" />
+    <ClInclude Include="Source\Resource\IResourceIterator.h" />
+    <ClInclude Include="Source\Platform\Assimp\AssimpSceneLoader.h" />
+    <ClInclude Include="Source\Design\IIterator.h" />
+    <ClInclude Include="Source\Resource\ISceneLoader.h" />
+    <ClInclude Include="Source\Scene\Entity.h" />
+    <ClInclude Include="Source\Scene\ISceneParser.h" />
+    <ClInclude Include="Source\Resource\MaterialResource.h" />
+    <ClInclude Include="Source\GPUClient\GPUProgram.h" />
+    <ClInclude Include="Source\Resource\ResourceBundle.h" />
+    <ClInclude Include="Source\Scene\Material.h" />
+    <ClInclude Include="Source\Log\Log.h" />
+    <ClInclude Include="Source\IvaldiApp.h" />
+    <ClInclude Include="Source\Event\MouseEvent.h" />
+    <ClInclude Include="Source\Event\KeyEvent.h" />
+    <ClInclude Include="Source\Event\Event.h" />
+    <ClInclude Include="Source\Core.h" />
+    <ClInclude Include="Source\GPUClient\IndexBuffer.h" />
+    <ClInclude Include="Source\Scene\Mesh.h" />
+    <ClInclude Include="Source\Math\Point4.h" />
+    <ClInclude Include="Source\Math\Point3.h" />
+    <ClInclude Include="Source\Math\Point2.h" />
+    <ClInclude Include="Source\GPUClient\Shader.h" />
+    <ClInclude Include="Source\GPUClient\GPUClient.h" />
+    <ClInclude Include="Source\Resource\TextureResource.h" />
+    <ClInclude Include="Source\GPUClient\VertexBuffer.h" />
+    <ClInclude Include="Source\Math\Math.h" />
+    <ClInclude Include="Source\Math\Matrix3x3.h" />
+    <ClInclude Include="Source\Math\Matrix4x4.h" />
+    <ClInclude Include="Source\Math\Quaternion.h" />
+    <ClInclude Include="Source\Precompiled.h" />
+    <ClInclude Include="Source\Ivaldi.h" />
+    <ClInclude Include="Source\Window.h" />
+    <ClInclude Include="Source\Platform\Windows\WindowsWindow.h" />
+    <ClInclude Include="Source\Resource\MeshResource.h" />
+    <ClInclude Include="Source\GPUClient\Texture.h" />
+    <ClInclude Include="Source\Scene\Transform.h" />
+    <ClInclude Include="Source\GPUClient\VertexArray.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Platform\OpenGL\GLVertexArray.cpp" />
+    <ClCompile Include="Source\GPUClient\ShaderInputLayout.cpp" />
+    <ClCompile Include="Source\Scene\Camera\OrthogonalProjector.cpp" />
+    <ClCompile Include="Source\Scene\Camera\PerspectiveProjector.cpp" />
+    <ClCompile Include="Source\Scene\Camera\ICameraProjector.cpp" />
+    <ClCompile Include="Source\Scene\Camera\Camera.cpp" />
+    <ClCompile Include="Source\Platform\OpenGL\GLProgram.cpp" />
+    <ClCompile Include="Source\Platform\OpenGL\GLClient.cpp" />
+    <ClCompile Include="Source\Platform\OpenGL\GLIndexBuffer.cpp" />
+    <ClCompile Include="Source\Platform\OpenGL\GLVertexBuffer.cpp" />
+    <ClCompile Include="Source\Platform\OpenGL\GLTexture.cpp" />
+    <ClCompile Include="Source\Scene\SimpleSceneParser.cpp" />
+    <ClCompile Include="Source\Scene\SimpleScene.cpp" />
+    <ClCompile Include="Source\Platform\OpenGL\GLMaterialSystem.cpp" />
+    <ClCompile Include="Source\MaterialSystem\MaterialSystem.cpp" />
+    <ClCompile Include="Source\Resource\ShaderResource.cpp" />
+    <ClCompile Include="Source\Platform\OpenGL\GLShader.cpp" />
+    <ClCompile Include="Source\Platform\Assimp\AssimpResourceIterator.cpp" />
+    <ClCompile Include="Source\Resource\IResourceIterator.cpp" />
+    <ClCompile Include="Source\Platform\Assimp\AssimpSceneLoader.cpp" />
+    <ClCompile Include="Source\Design\IIterator.cpp" />
+    <ClCompile Include="Source\Resource\ISceneLoader.cpp" />
+    <ClCompile Include="Source\Scene\Entity.cpp" />
+    <ClCompile Include="Source\Scene\ISceneParser.cpp" />
+    <ClCompile Include="Source\Resource\MaterialResource.cpp" />
+    <ClCompile Include="Source\GPUClient\GPUProgram.cpp" />
+    <ClCompile Include="Source\Resource\ResourceBundle.cpp" />
+    <ClCompile Include="Source\Scene\Material.cpp" />
+    <ClCompile Include="Source\Log\Log.cpp" />
+    <ClCompile Include="Source\Event\MouseEvent.cpp" />
+    <ClCompile Include="Source\Event\KeyEvent.cpp" />
+    <ClCompile Include="Source\Event\Event.cpp" />
+    <ClCompile Include="Source\GPUClient\IndexBuffer.cpp" />
+    <ClCompile Include="Source\IvaldiApp.cpp" />
+    <ClCompile Include="Source\Scene\Mesh.cpp" />
+    <ClCompile Include="Source\Math\Point4.cpp" />
+    <ClCompile Include="Source\Math\Point3.cpp" />
+    <ClCompile Include="Source\Math\Point2.cpp" />
+    <ClCompile Include="Source\GPUClient\GPUClient.cpp" />
+    <ClCompile Include="Source\GPUClient\Shader.cpp" />
+    <ClCompile Include="Source\Resource\TextureResource.cpp" />
+    <ClCompile Include="Source\GPUClient\VertexBuffer.cpp" />
+    <ClCompile Include="Source\Math\Math.cpp" />
+    <ClCompile Include="Source\Math\Matrix3x3.cpp" />
+    <ClCompile Include="Source\Math\Matrix4x4.cpp" />
+    <ClCompile Include="Source\Math\Quaternion.cpp" />
+    <ClCompile Include="Source\Precompiled.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\Windows\WindowsWindow.cpp" />
+    <ClCompile Include="Source\Resource\MeshResource.cpp" />
+    <ClCompile Include="Source\GPUClient\Texture.cpp" />
+    <ClCompile Include="Source\Scene\Transform.cpp" />
+    <ClCompile Include="ThirdParty\glad\src\glad.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\GPUClient\VertexArray.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{421F0E16-8317-49E7-8C81-B432D6A9EEA1}</ProjectGuid>
+    <RootNamespace>Ivaldi</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>IVALDI_EXPORTS;IVALDI_PLATFORM_WINDOWS;IVALDI_ENABLE_ASSERTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\C++ Projects\Ivaldi\Ivaldi\Source;E:\C++ Projects\Ivaldi\ThirdParty;E:\C++ Projects\Ivaldi\Ivaldi\ThirdParty;E:\C++ Projects\Ivaldi\Ivaldi\ThirdParty\assimp\include;E:\C++ Projects\Ivaldi\Ivaldi\ThirdParty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>E:\C++ Projects\Ivaldi\Ivaldi\ThirdParty\glfw;E:\C++ Projects\Ivaldi\Ivaldi\ThirdParty\assimp\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;assimp.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y "$(TargetDir)$(TargetFileName)" "$(SolutionDir)bin\$(Configuration)\SandBox\$(TargetFileName)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>IVALDI_EXPORTS;IVALDI_PLATFORM_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
